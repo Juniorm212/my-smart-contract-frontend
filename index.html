@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIT_KCA Contract</title>
+</head>
+<body>
+  <h1>BIT_KCA Smart Contract</h1>
+
+  <div>
+    <h2>Number</h2>
+    <p id="number">Loading...</p>
+    <button onclick="increaseNumber()">Increase</button>
+    <button onclick="decreaseNumber()">Decrease</button>
+  </div>
+
+  <div>
+    <h2>Message</h2>
+    <p id="message">Loading...</p>
+    <input type="text" id="newMessage" placeholder="Enter new message" />
+    <button onclick="setMessage()">Update Message</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.0.4/dist/ethers.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
